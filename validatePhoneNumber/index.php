@@ -7,9 +7,9 @@ function valid_phone_number($str)
 function checkValidPhoneNumber($phoneNumber)
 {
     if (!valid_phone_number($phoneNumber)) {
-        echo "Invalid class name.";
+        echo "Invalid phone number.";
     } else {
-        echo "Valid class name.";
+        echo "Valid phone number.";
     }
 }
 checkValidPhoneNumber('(84)-(0978489648)');echo '<br>';
