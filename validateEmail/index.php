@@ -6,7 +6,7 @@ function valid_email($str)
 
 function checkValidEmail($email)
 {
-    if (!valid_email($email)) {
+    if (!valid_account($email)) {
         echo "Invalid email address.";
     } else {
         echo "Valid email address.";
